@@ -25,10 +25,10 @@ exports.handleData = async(req,res) => {
         }).map(alpha => alpha.toUpperCase())
 
         return res.status(200).json({
-            "is_success": true,
-            "user_id": "Manpreet Singh", 
-            "email": "manpreet0855.be21@chitkara.edu.in",
-            "roll_number": "2110990855",
+           "is_success": true,
+            "user_id": "john_doe_17091999", 
+            "email": "john@xyz.com",
+            "roll_number": "ABD123",
             "odd_numbers": odd_numbers,
             "even_numbers": even_numbers,
             "alphabets": alphabhets,
